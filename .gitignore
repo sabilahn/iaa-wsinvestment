@@ -1,0 +1,105 @@
+# ==========================================
+# CodeIgniter 4 & Project Specific
+# ==========================================
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+.env.backup
+.env.local
+.env.production
+.env.development
+!.env.example
+
+# Credentials, Keys & Certificates
+*.pem
+*.key
+*.pub
+*.cert
+*.crt
+*.pfx
+*.p12
+*.keystore
+
+# Database Dumps & Backups
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.backup
+
+# Server & Hosting Artifacts
+error_log
+*.log
+cgi-bin/
+.well-known/
+
+# Composer dependencies
+/vendor/
+composer.phar
+
+# CodeIgniter Writable Directory (Runtime caches, logs, sessions, debug data)
+/writable/cache/*
+!/writable/cache/index.html
+!/writable/cache/.gitkeep
+
+/writable/debugbar/*
+!/writable/debugbar/index.html
+!/writable/debugbar/.gitkeep
+
+/writable/logs/*
+!/writable/logs/index.html
+!/writable/logs/.gitkeep
+
+/writable/session/*
+!/writable/session/index.html
+!/writable/session/.gitkeep
+
+/writable/uploads/*
+!/writable/uploads/index.html
+!/writable/uploads/.gitkeep
+
+# Unit Testing & Reports
+phpunit.xml
+.phpunit.result.cache
+/tests/_reports/
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+*.sublime-workspace
+*.sublime-project
+
+# VS Code (ignore user workspace state, allow shared config)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
